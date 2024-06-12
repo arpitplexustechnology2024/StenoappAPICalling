@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataView" customModule="CustomeDataAPICalling" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="lyS-Qk-089" id="89x-d5-rGU"/>
+                <outlet property="messageLabel" destination="XR3-MH-1ot" id="HGJ-K9-sTi"/>
+                <outlet property="titleLabel" destination="z5D-XC-TkX" id="zPc-eh-hvZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8Rf-4Q-1Nn">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_data" translatesAutoresizingMaskIntoConstraints="NO" id="lyS-Qk-089">
+                    <rect key="frame" x="76" y="199" width="241" height="243"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="243" id="MLd-dR-58d"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5D-XC-TkX">
+                    <rect key="frame" x="117.66666666666669" y="452" width="158" height="28"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unable to load the  data please try again after somtimes " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-MH-1ot">
+                    <rect key="frame" x="47.333333333333343" y="490" width="298.66666666666663" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4wa-EH-lQO"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="z5D-XC-TkX" firstAttribute="top" secondItem="lyS-Qk-089" secondAttribute="bottom" constant="10" id="LGF-xL-bVl"/>
+                <constraint firstItem="XR3-MH-1ot" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="NJC-D8-yN1"/>
+                <constraint firstItem="lyS-Qk-089" firstAttribute="top" secondItem="4wa-EH-lQO" secondAttribute="top" constant="140" id="R1v-Gt-Fyn"/>
+                <constraint firstItem="4wa-EH-lQO" firstAttribute="trailing" secondItem="lyS-Qk-089" secondAttribute="trailing" constant="76" id="YSD-VB-eoV"/>
+                <constraint firstItem="lyS-Qk-089" firstAttribute="leading" secondItem="4wa-EH-lQO" secondAttribute="leading" constant="76" id="enR-BN-hpr"/>
+                <constraint firstItem="XR3-MH-1ot" firstAttribute="top" secondItem="z5D-XC-TkX" secondAttribute="bottom" constant="10" id="hGO-O5-HWo"/>
+                <constraint firstItem="z5D-XC-TkX" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="rTD-4o-vAu"/>
+            </constraints>
+            <point key="canvasLocation" x="863" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="no_data" width="1920" height="1920"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
