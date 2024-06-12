@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_StenoappAPICalling_StenoappAPICallingUITests : NSObject
+@end
+@implementation PodsDummy_Pods_StenoappAPICalling_StenoappAPICallingUITests
+@end

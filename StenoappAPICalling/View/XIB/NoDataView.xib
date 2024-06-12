@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataView" customModule="CustomeDataAPICalling" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoDataView" customModule="StenoappAPICalling" customModuleProvider="target">
             <connections>
                 <outlet property="imageView" destination="lyS-Qk-089" id="89x-d5-rGU"/>
                 <outlet property="messageLabel" destination="XR3-MH-1ot" id="HGJ-K9-sTi"/>
@@ -21,20 +21,20 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_data" translatesAutoresizingMaskIntoConstraints="NO" id="lyS-Qk-089">
-                    <rect key="frame" x="76" y="199" width="241" height="243"/>
+                    <rect key="frame" x="90" y="59" width="213" height="200"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="243" id="MLd-dR-58d"/>
+                        <constraint firstAttribute="height" constant="200" id="MLd-dR-58d"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5D-XC-TkX">
-                    <rect key="frame" x="117.66666666666669" y="452" width="158" height="28"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <rect key="frame" x="127.33333333333333" y="269" width="138.33333333333337" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unable to load the  data please try again after somtimes " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-MH-1ot">
-                    <rect key="frame" x="47.333333333333343" y="490" width="298.66666666666663" height="48"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <rect key="frame" x="66.333333333333343" y="303" width="260.66666666666663" height="40.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -44,13 +44,13 @@
             <constraints>
                 <constraint firstItem="z5D-XC-TkX" firstAttribute="top" secondItem="lyS-Qk-089" secondAttribute="bottom" constant="10" id="LGF-xL-bVl"/>
                 <constraint firstItem="XR3-MH-1ot" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="NJC-D8-yN1"/>
-                <constraint firstItem="lyS-Qk-089" firstAttribute="top" secondItem="4wa-EH-lQO" secondAttribute="top" constant="140" id="R1v-Gt-Fyn"/>
-                <constraint firstItem="4wa-EH-lQO" firstAttribute="trailing" secondItem="lyS-Qk-089" secondAttribute="trailing" constant="76" id="YSD-VB-eoV"/>
-                <constraint firstItem="lyS-Qk-089" firstAttribute="leading" secondItem="4wa-EH-lQO" secondAttribute="leading" constant="76" id="enR-BN-hpr"/>
+                <constraint firstItem="lyS-Qk-089" firstAttribute="top" secondItem="4wa-EH-lQO" secondAttribute="top" id="R1v-Gt-Fyn"/>
+                <constraint firstItem="4wa-EH-lQO" firstAttribute="trailing" secondItem="lyS-Qk-089" secondAttribute="trailing" constant="90" id="YSD-VB-eoV"/>
+                <constraint firstItem="lyS-Qk-089" firstAttribute="leading" secondItem="4wa-EH-lQO" secondAttribute="leading" constant="90" id="enR-BN-hpr"/>
                 <constraint firstItem="XR3-MH-1ot" firstAttribute="top" secondItem="z5D-XC-TkX" secondAttribute="bottom" constant="10" id="hGO-O5-HWo"/>
                 <constraint firstItem="z5D-XC-TkX" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="rTD-4o-vAu"/>
             </constraints>
-            <point key="canvasLocation" x="863" y="-11"/>
+            <point key="canvasLocation" x="808" y="-6"/>
         </view>
     </objects>
     <resources>

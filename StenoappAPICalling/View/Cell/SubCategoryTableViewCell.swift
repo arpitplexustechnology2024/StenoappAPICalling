@@ -8,10 +8,16 @@
 import UIKit
 
 class SubCategoryTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var dataLbl: UILabel!
+    @IBOutlet weak var myView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        myView.layer.borderWidth = 1
+        myView.layer.borderColor = UIColor.customeRed.cgColor
+        myView.layer.cornerRadius = 25
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

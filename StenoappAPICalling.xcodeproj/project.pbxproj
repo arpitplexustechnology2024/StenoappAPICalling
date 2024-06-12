@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52EB5E245F011AFF39D13B21 /* Pods_StenoappAPICallingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A1AA44AC29F405D0CDC9E7 /* Pods_StenoappAPICallingTests.framework */; };
+		5635A31794E0CE0747CA1375 /* Pods_StenoappAPICalling_StenoappAPICallingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B159C6CADC18BC5E064EC80 /* Pods_StenoappAPICalling_StenoappAPICallingUITests.framework */; };
+		BD745F582C1A32CD000534D8 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD745F562C1A32CC000534D8 /* NoDataView.swift */; };
+		BD745F592C1A32CD000534D8 /* NoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD745F572C1A32CD000534D8 /* NoDataView.xib */; };
 		BD82679C2C1A02F800640826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82679B2C1A02F800640826 /* AppDelegate.swift */; };
 		BD82679E2C1A02F800640826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82679D2C1A02F800640826 /* SceneDelegate.swift */; };
 		BD8267A02C1A02F800640826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD82679F2C1A02F800640826 /* ViewController.swift */; };
@@ -16,6 +20,14 @@
 		BD8267B32C1A02FA00640826 /* StenoappAPICallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267B22C1A02FA00640826 /* StenoappAPICallingTests.swift */; };
 		BD8267BD2C1A02FA00640826 /* StenoappAPICallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267BC2C1A02FA00640826 /* StenoappAPICallingUITests.swift */; };
 		BD8267BF2C1A02FA00640826 /* StenoappAPICallingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267BE2C1A02FA00640826 /* StenoappAPICallingUITestsLaunchTests.swift */; };
+		BD8267D02C1A033400640826 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267CF2C1A033400640826 /* Model.swift */; };
+		BD8267D32C1A06F700640826 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267D22C1A06F700640826 /* HomeCollectionViewCell.swift */; };
+		BD8267D52C1A13FE00640826 /* SubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267D42C1A13FE00640826 /* SubCategoryViewController.swift */; };
+		BD8267D72C1A141A00640826 /* SubCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267D62C1A141A00640826 /* SubCategoryTableViewCell.swift */; };
+		BD8267D92C1A148300640826 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8267D82C1A148300640826 /* Color.xcassets */; };
+		BD8267E12C1A222F00640826 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267DC2C1A222F00640826 /* NoInternetView.swift */; };
+		BD8267E22C1A222F00640826 /* NoInternetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8267DD2C1A222F00640826 /* NoInternetView.xib */; };
+		C3E63331674E8F3D7B298D4D /* Pods_StenoappAPICalling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E5F94498DB6C2085A4EEC8 /* Pods_StenoappAPICalling.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1997A9AAD1E89F87BC0DEB03 /* Pods-StenoappAPICalling-StenoappAPICallingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StenoappAPICalling-StenoappAPICallingUITests.debug.xcconfig"; path = "Target Support Files/Pods-StenoappAPICalling-StenoappAPICallingUITests/Pods-StenoappAPICalling-StenoappAPICallingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ACF24F7159BB3308F680547 /* Pods-StenoappAPICalling-StenoappAPICallingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StenoappAPICalling-StenoappAPICallingUITests.release.xcconfig"; path = "Target Support Files/Pods-StenoappAPICalling-StenoappAPICallingUITests/Pods-StenoappAPICalling-StenoappAPICallingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B159C6CADC18BC5E064EC80 /* Pods_StenoappAPICalling_StenoappAPICallingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StenoappAPICalling_StenoappAPICallingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47835D225E800A9B999827CB /* Pods-StenoappAPICalling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StenoappAPICalling.release.xcconfig"; path = "Target Support Files/Pods-StenoappAPICalling/Pods-StenoappAPICalling.release.xcconfig"; sourceTree = "<group>"; };
+		53E5F94498DB6C2085A4EEC8 /* Pods_StenoappAPICalling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StenoappAPICalling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570B1D46BDA6DC00EFBB4728 /* Pods-StenoappAPICallingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StenoappAPICallingTests.release.xcconfig"; path = "Target Support Files/Pods-StenoappAPICallingTests/Pods-StenoappAPICallingTests.release.xcconfig"; sourceTree = "<group>"; };
+		69D8EC0326EC5D551E8D3022 /* Pods-StenoappAPICallingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StenoappAPICallingTests.debug.xcconfig"; path = "Target Support Files/Pods-StenoappAPICallingTests/Pods-StenoappAPICallingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F3A1627481CEA689F9F5408 /* Pods-StenoappAPICalling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StenoappAPICalling.debug.xcconfig"; path = "Target Support Files/Pods-StenoappAPICalling/Pods-StenoappAPICalling.debug.xcconfig"; sourceTree = "<group>"; };
+		BD745F562C1A32CC000534D8 /* NoDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		BD745F572C1A32CD000534D8 /* NoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoDataView.xib; sourceTree = "<group>"; };
 		BD8267982C1A02F800640826 /* StenoappAPICalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StenoappAPICalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD82679B2C1A02F800640826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD82679D2C1A02F800640826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,14 @@
 		BD8267B82C1A02FA00640826 /* StenoappAPICallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StenoappAPICallingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8267BC2C1A02FA00640826 /* StenoappAPICallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StenoappAPICallingUITests.swift; sourceTree = "<group>"; };
 		BD8267BE2C1A02FA00640826 /* StenoappAPICallingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StenoappAPICallingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8267CF2C1A033400640826 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BD8267D22C1A06F700640826 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD8267D42C1A13FE00640826 /* SubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryViewController.swift; sourceTree = "<group>"; };
+		BD8267D62C1A141A00640826 /* SubCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		BD8267D82C1A148300640826 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		BD8267DC2C1A222F00640826 /* NoInternetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		BD8267DD2C1A222F00640826 /* NoInternetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoInternetView.xib; sourceTree = "<group>"; };
+		F3A1AA44AC29F405D0CDC9E7 /* Pods_StenoappAPICallingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StenoappAPICallingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E63331674E8F3D7B298D4D /* Pods_StenoappAPICalling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EB5E245F011AFF39D13B21 /* Pods_StenoappAPICallingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5635A31794E0CE0747CA1375 /* Pods_StenoappAPICalling_StenoappAPICallingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CB743198F7FC66C855EBA86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A1627481CEA689F9F5408 /* Pods-StenoappAPICalling.debug.xcconfig */,
+				47835D225E800A9B999827CB /* Pods-StenoappAPICalling.release.xcconfig */,
+				1997A9AAD1E89F87BC0DEB03 /* Pods-StenoappAPICalling-StenoappAPICallingUITests.debug.xcconfig */,
+				2ACF24F7159BB3308F680547 /* Pods-StenoappAPICalling-StenoappAPICallingUITests.release.xcconfig */,
+				69D8EC0326EC5D551E8D3022 /* Pods-StenoappAPICallingTests.debug.xcconfig */,
+				570B1D46BDA6DC00EFBB4728 /* Pods-StenoappAPICallingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BD82678F2C1A02F800640826 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				BD8267B12C1A02FA00640826 /* StenoappAPICallingTests */,
 				BD8267BB2C1A02FA00640826 /* StenoappAPICallingUITests */,
 				BD8267992C1A02F800640826 /* Products */,
+				4CB743198F7FC66C855EBA86 /* Pods */,
+				E676CBBDF8F23CBC667A05CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +147,12 @@
 		BD82679A2C1A02F800640826 /* StenoappAPICalling */ = {
 			isa = PBXGroup;
 			children = (
-				BD82679B2C1A02F800640826 /* AppDelegate.swift */,
-				BD82679D2C1A02F800640826 /* SceneDelegate.swift */,
-				BD82679F2C1A02F800640826 /* ViewController.swift */,
-				BD8267A12C1A02F800640826 /* Main.storyboard */,
+				BD8267CB2C1A030500640826 /* Delegate */,
+				BD8267CE2C1A032900640826 /* Model */,
+				BD8267CC2C1A031C00640826 /* Controller */,
+				BD8267CD2C1A032300640826 /* View */,
 				BD8267A42C1A02F900640826 /* Assets.xcassets */,
-				BD8267A62C1A02F900640826 /* LaunchScreen.storyboard */,
+				BD8267D82C1A148300640826 /* Color.xcassets */,
 				BD8267A92C1A02F900640826 /* Info.plist */,
 			);
 			path = StenoappAPICalling;
@@ -127,6 +175,73 @@
 			path = StenoappAPICallingUITests;
 			sourceTree = "<group>";
 		};
+		BD8267CB2C1A030500640826 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD82679B2C1A02F800640826 /* AppDelegate.swift */,
+				BD82679D2C1A02F800640826 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		BD8267CC2C1A031C00640826 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD82679F2C1A02F800640826 /* ViewController.swift */,
+				BD8267D42C1A13FE00640826 /* SubCategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD8267CD2C1A032300640826 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD8267DE2C1A222F00640826 /* XIB */,
+				BD8267D12C1A06B000640826 /* Cell */,
+				BD8267A12C1A02F800640826 /* Main.storyboard */,
+				BD8267A62C1A02F900640826 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD8267CE2C1A032900640826 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD8267CF2C1A033400640826 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD8267D12C1A06B000640826 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD8267D22C1A06F700640826 /* HomeCollectionViewCell.swift */,
+				BD8267D62C1A141A00640826 /* SubCategoryTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BD8267DE2C1A222F00640826 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BD745F562C1A32CC000534D8 /* NoDataView.swift */,
+				BD745F572C1A32CD000534D8 /* NoDataView.xib */,
+				BD8267DC2C1A222F00640826 /* NoInternetView.swift */,
+				BD8267DD2C1A222F00640826 /* NoInternetView.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		E676CBBDF8F23CBC667A05CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E5F94498DB6C2085A4EEC8 /* Pods_StenoappAPICalling.framework */,
+				2B159C6CADC18BC5E064EC80 /* Pods_StenoappAPICalling_StenoappAPICallingUITests.framework */,
+				F3A1AA44AC29F405D0CDC9E7 /* Pods_StenoappAPICallingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD8267C22C1A02FA00640826 /* Build configuration list for PBXNativeTarget "StenoappAPICalling" */;
 			buildPhases = (
+				C74A960878BE4BF9AFC2B99B /* [CP] Check Pods Manifest.lock */,
 				BD8267942C1A02F800640826 /* Sources */,
 				BD8267952C1A02F800640826 /* Frameworks */,
 				BD8267962C1A02F800640826 /* Resources */,
+				3452C15502AE7E6BF4C3DB85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD8267C52C1A02FA00640826 /* Build configuration list for PBXNativeTarget "StenoappAPICallingTests" */;
 			buildPhases = (
+				8BDD259361C81565EFC968B5 /* [CP] Check Pods Manifest.lock */,
 				BD8267AA2C1A02FA00640826 /* Sources */,
 				BD8267AB2C1A02FA00640826 /* Frameworks */,
 				BD8267AC2C1A02FA00640826 /* Resources */,
@@ -169,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD8267C82C1A02FA00640826 /* Build configuration list for PBXNativeTarget "StenoappAPICallingUITests" */;
 			buildPhases = (
+				B2B3164A510A66309F7AD31B /* [CP] Check Pods Manifest.lock */,
 				BD8267B42C1A02FA00640826 /* Sources */,
 				BD8267B52C1A02FA00640826 /* Frameworks */,
 				BD8267B62C1A02FA00640826 /* Resources */,
+				B17A77E5FFBE634917D21138 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +351,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8267E22C1A222F00640826 /* NoInternetView.xib in Resources */,
 				BD8267A52C1A02F900640826 /* Assets.xcassets in Resources */,
 				BD8267A82C1A02F900640826 /* Base in Resources */,
+				BD745F592C1A32CD000534D8 /* NoDataView.xib in Resources */,
+				BD8267D92C1A148300640826 /* Color.xcassets in Resources */,
 				BD8267A32C1A02F800640826 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +376,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3452C15502AE7E6BF4C3DB85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StenoappAPICalling/Pods-StenoappAPICalling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StenoappAPICalling/Pods-StenoappAPICalling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StenoappAPICalling/Pods-StenoappAPICalling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BDD259361C81565EFC968B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StenoappAPICallingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17A77E5FFBE634917D21138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StenoappAPICalling-StenoappAPICallingUITests/Pods-StenoappAPICalling-StenoappAPICallingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StenoappAPICalling-StenoappAPICallingUITests/Pods-StenoappAPICalling-StenoappAPICallingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StenoappAPICalling-StenoappAPICallingUITests/Pods-StenoappAPICalling-StenoappAPICallingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B3164A510A66309F7AD31B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StenoappAPICalling-StenoappAPICallingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74A960878BE4BF9AFC2B99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StenoappAPICalling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD8267942C1A02F800640826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8267D32C1A06F700640826 /* HomeCollectionViewCell.swift in Sources */,
+				BD8267D52C1A13FE00640826 /* SubCategoryViewController.swift in Sources */,
 				BD8267A02C1A02F800640826 /* ViewController.swift in Sources */,
 				BD82679C2C1A02F800640826 /* AppDelegate.swift in Sources */,
 				BD82679E2C1A02F800640826 /* SceneDelegate.swift in Sources */,
+				BD8267D02C1A033400640826 /* Model.swift in Sources */,
+				BD8267D72C1A141A00640826 /* SubCategoryTableViewCell.swift in Sources */,
+				BD745F582C1A32CD000534D8 /* NoDataView.swift in Sources */,
+				BD8267E12C1A222F00640826 /* NoInternetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +669,13 @@
 		};
 		BD8267C32C1A02FA00640826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3A1627481CEA689F9F5408 /* Pods-StenoappAPICalling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StenoappAPICalling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,11 +698,13 @@
 		};
 		BD8267C42C1A02FA00640826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47835D225E800A9B999827CB /* Pods-StenoappAPICalling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StenoappAPICalling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +727,7 @@
 		};
 		BD8267C62C1A02FA00640826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D8EC0326EC5D551E8D3022 /* Pods-StenoappAPICallingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +747,7 @@
 		};
 		BD8267C72C1A02FA00640826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570B1D46BDA6DC00EFBB4728 /* Pods-StenoappAPICallingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +767,7 @@
 		};
 		BD8267C92C1A02FA00640826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1997A9AAD1E89F87BC0DEB03 /* Pods-StenoappAPICalling-StenoappAPICallingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +785,7 @@
 		};
 		BD8267CA2C1A02FA00640826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACF24F7159BB3308F680547 /* Pods-StenoappAPICalling-StenoappAPICallingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoInternetView" customModule="CustomeDataAPICalling" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoInternetView" customModule="StenoappAPICalling" customModuleProvider="target">
             <connections>
                 <outlet property="imageView" destination="IOS-6A-kAF" id="SRH-CV-8Ak"/>
                 <outlet property="messageLabel" destination="7d1-e8-eYz" id="NxC-JA-G6Z"/>
@@ -22,32 +22,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_connection" translatesAutoresizingMaskIntoConstraints="NO" id="IOS-6A-kAF">
-                    <rect key="frame" x="76" y="179" width="241" height="243"/>
+                    <rect key="frame" x="96.666666666666686" y="59" width="200" height="200"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="241" id="6yB-Ab-wNh"/>
-                        <constraint firstAttribute="height" constant="243" id="Efa-Ar-G26"/>
+                        <constraint firstAttribute="width" constant="200" id="6yB-Ab-wNh"/>
+                        <constraint firstAttribute="height" constant="200" id="Efa-Ar-G26"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Internet Connection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyX-eb-ATe">
-                    <rect key="frame" x="71.666666666666686" y="447" width="250" height="28"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <rect key="frame" x="87.333333333333329" y="284" width="218.66666666666669" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7d1-e8-eYz">
-                    <rect key="frame" x="94.000000000000014" y="485" width="205.33333333333337" height="48"/>
+                    <rect key="frame" x="107" y="318" width="179" height="40.666666666666686"/>
                     <string key="text" base64-UTF8="YES">
 UGxlYXNlIFR1cm4gT24gSW50ZXJuZXQD4oCoQ29ubmVjdGlvbg
 </string>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AT-lE-uDB">
-                    <rect key="frame" x="176.66666666666666" y="558" width="40" height="40"/>
+                    <rect key="frame" x="179" y="383.66666666666669" width="35" height="35"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="40" id="VwC-QT-iZf"/>
-                        <constraint firstAttribute="width" constant="40" id="fLn-7c-2Nc"/>
+                        <constraint firstAttribute="height" constant="35" id="VwC-QT-iZf"/>
+                        <constraint firstAttribute="width" constant="35" id="fLn-7c-2Nc"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" image="reload"/>
@@ -56,17 +56,16 @@ UGxlYXNlIFR1cm4gT24gSW50ZXJuZXQD4oCoQ29ubmVjdGlvbg
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="IOS-6A-kAF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="120" id="3SS-LS-gWB"/>
+                <constraint firstItem="IOS-6A-kAF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3SS-LS-gWB"/>
                 <constraint firstItem="RyX-eb-ATe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4NQ-0Z-HEL"/>
                 <constraint firstItem="7d1-e8-eYz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4ql-2G-FRD"/>
-                <constraint firstItem="IOS-6A-kAF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="76" id="E13-St-4rc"/>
                 <constraint firstItem="7d1-e8-eYz" firstAttribute="top" secondItem="RyX-eb-ATe" secondAttribute="bottom" constant="10" id="FKA-eA-f2Z"/>
                 <constraint firstItem="9AT-lE-uDB" firstAttribute="top" secondItem="7d1-e8-eYz" secondAttribute="bottom" constant="25" id="Wsv-iR-XCx"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IOS-6A-kAF" secondAttribute="trailing" constant="76" id="Y26-GD-jJw"/>
+                <constraint firstItem="IOS-6A-kAF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fZ5-SJ-CpZ"/>
                 <constraint firstItem="9AT-lE-uDB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vZu-8H-bv5"/>
                 <constraint firstItem="RyX-eb-ATe" firstAttribute="top" secondItem="IOS-6A-kAF" secondAttribute="bottom" constant="25" id="yDG-cP-zV6"/>
             </constraints>
-            <point key="canvasLocation" x="105" y="-11"/>
+            <point key="canvasLocation" x="118" y="-27"/>
         </view>
     </objects>
     <resources>
