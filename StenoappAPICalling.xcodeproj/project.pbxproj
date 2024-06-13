@@ -27,6 +27,11 @@
 		BD8267D92C1A148300640826 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8267D82C1A148300640826 /* Color.xcassets */; };
 		BD8267E12C1A222F00640826 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8267DC2C1A222F00640826 /* NoInternetView.swift */; };
 		BD8267E22C1A222F00640826 /* NoInternetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8267DD2C1A222F00640826 /* NoInternetView.xib */; };
+		BDDB60882C1A4AEC00CA7537 /* DataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB60872C1A4AEC00CA7537 /* DataListViewController.swift */; };
+		BDDB608D2C1A4B2A00CA7537 /* stenoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDB60892C1A4B2A00CA7537 /* stenoTableViewCell.xib */; };
+		BDDB608E2C1A4B2A00CA7537 /* stenoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB608A2C1A4B2A00CA7537 /* stenoTableViewCell.swift */; };
+		BDDB608F2C1A4B2A00CA7537 /* DataListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDB608B2C1A4B2A00CA7537 /* DataListTableViewCell.xib */; };
+		BDDB60902C1A4B2A00CA7537 /* DataListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB608C2C1A4B2A00CA7537 /* DataListTableViewCell.swift */; };
 		C3E63331674E8F3D7B298D4D /* Pods_StenoappAPICalling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E5F94498DB6C2085A4EEC8 /* Pods_StenoappAPICalling.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +83,11 @@
 		BD8267D82C1A148300640826 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		BD8267DC2C1A222F00640826 /* NoInternetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
 		BD8267DD2C1A222F00640826 /* NoInternetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoInternetView.xib; sourceTree = "<group>"; };
+		BDDB60872C1A4AEC00CA7537 /* DataListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewController.swift; sourceTree = "<group>"; };
+		BDDB60892C1A4B2A00CA7537 /* stenoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = stenoTableViewCell.xib; sourceTree = "<group>"; };
+		BDDB608A2C1A4B2A00CA7537 /* stenoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stenoTableViewCell.swift; sourceTree = "<group>"; };
+		BDDB608B2C1A4B2A00CA7537 /* DataListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataListTableViewCell.xib; sourceTree = "<group>"; };
+		BDDB608C2C1A4B2A00CA7537 /* DataListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataListTableViewCell.swift; sourceTree = "<group>"; };
 		F3A1AA44AC29F405D0CDC9E7 /* Pods_StenoappAPICallingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StenoappAPICallingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -189,6 +199,7 @@
 			children = (
 				BD82679F2C1A02F800640826 /* ViewController.swift */,
 				BD8267D42C1A13FE00640826 /* SubCategoryViewController.swift */,
+				BDDB60872C1A4AEC00CA7537 /* DataListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,6 +226,10 @@
 		BD8267D12C1A06B000640826 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				BDDB608A2C1A4B2A00CA7537 /* stenoTableViewCell.swift */,
+				BDDB60892C1A4B2A00CA7537 /* stenoTableViewCell.xib */,
+				BDDB608C2C1A4B2A00CA7537 /* DataListTableViewCell.swift */,
+				BDDB608B2C1A4B2A00CA7537 /* DataListTableViewCell.xib */,
 				BD8267D22C1A06F700640826 /* HomeCollectionViewCell.swift */,
 				BD8267D62C1A141A00640826 /* SubCategoryTableViewCell.swift */,
 			);
@@ -355,6 +370,8 @@
 				BD8267A52C1A02F900640826 /* Assets.xcassets in Resources */,
 				BD8267A82C1A02F900640826 /* Base in Resources */,
 				BD745F592C1A32CD000534D8 /* NoDataView.xib in Resources */,
+				BDDB608D2C1A4B2A00CA7537 /* stenoTableViewCell.xib in Resources */,
+				BDDB608F2C1A4B2A00CA7537 /* DataListTableViewCell.xib in Resources */,
 				BD8267D92C1A148300640826 /* Color.xcassets in Resources */,
 				BD8267A32C1A02F800640826 /* Base in Resources */,
 			);
@@ -484,6 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDB60882C1A4AEC00CA7537 /* DataListViewController.swift in Sources */,
 				BD8267D32C1A06F700640826 /* HomeCollectionViewCell.swift in Sources */,
 				BD8267D52C1A13FE00640826 /* SubCategoryViewController.swift in Sources */,
 				BD8267A02C1A02F800640826 /* ViewController.swift in Sources */,
@@ -492,7 +510,9 @@
 				BD8267D02C1A033400640826 /* Model.swift in Sources */,
 				BD8267D72C1A141A00640826 /* SubCategoryTableViewCell.swift in Sources */,
 				BD745F582C1A32CD000534D8 /* NoDataView.swift in Sources */,
+				BDDB60902C1A4B2A00CA7537 /* DataListTableViewCell.swift in Sources */,
 				BD8267E12C1A222F00640826 /* NoInternetView.swift in Sources */,
+				BDDB608E2C1A4B2A00CA7537 /* stenoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

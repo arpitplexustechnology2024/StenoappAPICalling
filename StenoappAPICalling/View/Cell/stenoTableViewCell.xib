@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stenoTableViewCell" id="KGk-i7-Jjw" customClass="stenoTableViewCell" customModule="StenoAPICalling" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stenoTableViewCell" id="KGk-i7-Jjw" customClass="stenoTableViewCell" customModule="StenoappAPICalling" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="393" height="57"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -19,9 +19,11 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFi-he-d90">
                         <rect key="frame" x="0.0" y="0.0" width="60" height="57"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TV-FS-FV5">
-                                <rect key="frame" x="8" y="8" width="24" height="21"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TV-FS-FV5">
+                                <rect key="frame" x="17" y="6.6666666666666679" width="26.333333333333329" height="44"/>
+                                <string key="text">Sr.
+No.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -29,19 +31,19 @@
                         <color key="backgroundColor" red="0.96017974620000002" green="0.17329958079999999" blue="0.094719789920000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="57" id="6lm-B7-IBy"/>
-                            <constraint firstItem="7TV-FS-FV5" firstAttribute="leading" secondItem="xFi-he-d90" secondAttribute="leading" constant="8" id="MVx-Tf-diJ"/>
                             <constraint firstAttribute="width" constant="60" id="Zta-0V-LBf"/>
-                            <constraint firstItem="7TV-FS-FV5" firstAttribute="top" secondItem="xFi-he-d90" secondAttribute="top" constant="8" id="x44-rz-yWI"/>
+                            <constraint firstItem="7TV-FS-FV5" firstAttribute="centerY" secondItem="xFi-he-d90" secondAttribute="centerY" id="r1E-9r-caZ"/>
+                            <constraint firstItem="7TV-FS-FV5" firstAttribute="centerX" secondItem="xFi-he-d90" secondAttribute="centerX" id="rne-AP-ucr"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-RQ-IjR">
                         <rect key="frame" x="273" y="0.0" width="60" height="57"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f07-YF-6w2">
-                                <rect key="frame" x="8" y="8" width="43.333333333333336" height="41.333333333333336"/>
-                                <string key="text">ext
+                                <rect key="frame" x="12.333333333333314" y="5.3333333333333321" width="35.666666666666664" height="46.666666666666671"/>
+                                <string key="text">ext.
 path</string>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,25 +51,25 @@ path</string>
                         <color key="backgroundColor" red="0.96017974620000002" green="0.17329958079999999" blue="0.094719789920000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="57" id="2N6-xU-3gK"/>
+                            <constraint firstItem="f07-YF-6w2" firstAttribute="centerX" secondItem="BJB-RQ-IjR" secondAttribute="centerX" id="K90-x3-G3c"/>
                             <constraint firstAttribute="width" constant="60" id="UYS-OD-CTI"/>
-                            <constraint firstItem="f07-YF-6w2" firstAttribute="leading" secondItem="BJB-RQ-IjR" secondAttribute="leading" constant="8" id="sas-xx-bfT"/>
-                            <constraint firstItem="f07-YF-6w2" firstAttribute="top" secondItem="BJB-RQ-IjR" secondAttribute="top" constant="8" id="x0n-4b-FZS"/>
+                            <constraint firstItem="f07-YF-6w2" firstAttribute="centerY" secondItem="BJB-RQ-IjR" secondAttribute="centerY" id="y9O-7n-CkG"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mGd-5f-hJs">
                         <rect key="frame" x="60" y="0.0" width="213" height="57"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHA-ay-0Rq">
-                                <rect key="frame" x="8" y="8" width="53" height="21"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Particulars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHA-ay-0Rq">
+                                <rect key="frame" x="58.666666666666671" y="14.666666666666664" width="96.000000000000014" height="28"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96017974620000002" green="0.17329958079999999" blue="0.094719789920000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KHA-ay-0Rq" firstAttribute="leading" secondItem="mGd-5f-hJs" secondAttribute="leading" constant="8" id="LZ2-mH-TJK"/>
-                            <constraint firstItem="KHA-ay-0Rq" firstAttribute="top" secondItem="mGd-5f-hJs" secondAttribute="top" constant="8" id="N7R-3c-qkA"/>
+                            <constraint firstItem="KHA-ay-0Rq" firstAttribute="centerX" secondItem="mGd-5f-hJs" secondAttribute="centerX" id="GEQ-HU-Dqu"/>
+                            <constraint firstItem="KHA-ay-0Rq" firstAttribute="centerY" secondItem="mGd-5f-hJs" secondAttribute="centerY" id="JR1-bL-dHI"/>
                             <constraint firstAttribute="height" constant="57" id="an3-3Y-3v0"/>
                             <constraint firstAttribute="width" constant="213" id="bQw-ZL-yt7"/>
                         </constraints>
@@ -76,20 +78,20 @@ path</string>
                         <rect key="frame" x="333" y="0.0" width="60" height="57"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kl-vS-pMJ">
-                                <rect key="frame" x="4" y="8" width="55.333333333333336" height="41.333333333333336"/>
+                                <rect key="frame" x="7" y="5.3333333333333321" width="46.333333333333336" height="46.666666666666671"/>
                                 <string key="text">ext
 path1</string>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96017974620000002" green="0.17329958079999999" blue="0.094719789920000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="1kl-vS-pMJ" firstAttribute="centerY" secondItem="ADL-2X-lhM" secondAttribute="centerY" id="2FE-Aj-v5g"/>
                             <constraint firstAttribute="height" constant="57" id="Q8W-9i-w2N"/>
-                            <constraint firstItem="1kl-vS-pMJ" firstAttribute="leading" secondItem="ADL-2X-lhM" secondAttribute="leading" constant="4" id="adq-5R-MYj"/>
-                            <constraint firstItem="1kl-vS-pMJ" firstAttribute="top" secondItem="ADL-2X-lhM" secondAttribute="top" constant="8" id="bqc-jS-Yhf"/>
                             <constraint firstAttribute="width" constant="60" id="exf-fu-4FG"/>
+                            <constraint firstItem="1kl-vS-pMJ" firstAttribute="centerX" secondItem="ADL-2X-lhM" secondAttribute="centerX" id="mff-ae-tLB"/>
                         </constraints>
                     </view>
                 </subviews>

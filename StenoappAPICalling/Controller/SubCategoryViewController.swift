@@ -31,9 +31,9 @@ class SubCategoryViewController: UIViewController {
         setupNoInternetView()
         setupNoDataView()
         
-        if let query = categoryID {
+        if let _ = categoryID {
             if isConnectedToInternet() {
-                    self.showLoaderAndFetchData(categoryID: self.categoryID)
+                self.showLoaderAndFetchData(categoryID: self.categoryID)
             } else {
                 showNoInternetView()
             }
@@ -74,7 +74,7 @@ class SubCategoryViewController: UIViewController {
     @objc func retryButtonTapped() {
         if isConnectedToInternet() {
             noInternetView.isHidden = true
-                self.showLoaderAndFetchData(categoryID: self.categoryID)
+            self.showLoaderAndFetchData(categoryID: self.categoryID)
         } else {
             showAlert(title: "No Internet", message: "Please check your internet connection and try again.")
         }
@@ -83,9 +83,10 @@ class SubCategoryViewController: UIViewController {
     func showLoaderAndFetchData(categoryID: String) {
         activityIndicator.startAnimating()
         activityIndicator.style = .large
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             self.activityIndicator.stopAnimating()
             self.subCategoryTableView.isHidden = false
+            // Background thread
             DispatchQueue.global(qos: .background).async {
                 self.fetchSubCategories(categoryID: self.categoryID)
             }
@@ -101,14 +102,13 @@ class SubCategoryViewController: UIViewController {
             case .success(let subCategoryResponse):
                 if subCategoryResponse.status == 1 {
                     self.subCategories = subCategoryResponse.data
-                    
                     DispatchQueue.main.async {
                         self.subCategoryTableView.reloadData()
                     }
                 } else {
                     print("Failed to fetch subcategories: Status \(subCategoryResponse.status)")
                 }
-            case .failure(let error):
+            case .failure(_):
                 DispatchQueue.main.async {
                     self.noDataView.isHidden = false
                 }
@@ -155,18 +155,31 @@ extension SubCategoryViewController: UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedData = subCategories[indexPath.item]
+        navigateToSubCategoryViewController(subCategoryID: selectedData.subCategoryID)
+    }
+    
+    func navigateToSubCategoryViewController(subCategoryID: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "DataListViewController") as! DataListViewController
+        vc.categoryID = self.categoryID
+        vc.subCategoryID = subCategoryID
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 115
     }
     
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let rotationTranform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
-        cell.layer.transform = rotationTranform
-        cell.alpha = 1.0
-        
-        UIView.animate(withDuration: 1.0) {
-            cell.layer.transform = CATransform3DIdentity
-            cell.alpha = 1.0
-        }
-    }
+//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        let rotationTranform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
+//        cell.layer.transform = rotationTranform
+//        cell.alpha = 1.0
+//        
+//        UIView.animate(withDuration: 1.0) {
+//            cell.layer.transform = CATransform3DIdentity
+//            cell.alpha = 1.0
+//        }
+//    }
 }

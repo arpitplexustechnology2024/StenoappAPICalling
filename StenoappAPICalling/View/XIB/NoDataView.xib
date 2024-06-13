@@ -21,20 +21,21 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_data" translatesAutoresizingMaskIntoConstraints="NO" id="lyS-Qk-089">
-                    <rect key="frame" x="90" y="59" width="213" height="200"/>
+                    <rect key="frame" x="71.666666666666686" y="129" width="250" height="240"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="200" id="MLd-dR-58d"/>
+                        <constraint firstAttribute="height" constant="240" id="MLd-dR-58d"/>
+                        <constraint firstAttribute="width" constant="250" id="ty8-h0-8Ic"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5D-XC-TkX">
-                    <rect key="frame" x="127.33333333333333" y="269" width="138.33333333333337" height="24"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <rect key="frame" x="117.66666666666667" y="379" width="157.66666666666663" height="27.666666666666686"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unable to load the  data please try again after somtimes " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XR3-MH-1ot">
-                    <rect key="frame" x="66.333333333333343" y="303" width="260.66666666666663" height="40.666666666666686"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="47.333333333333343" y="416.66666666666669" width="298.66666666666663" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -44,9 +45,8 @@
             <constraints>
                 <constraint firstItem="z5D-XC-TkX" firstAttribute="top" secondItem="lyS-Qk-089" secondAttribute="bottom" constant="10" id="LGF-xL-bVl"/>
                 <constraint firstItem="XR3-MH-1ot" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="NJC-D8-yN1"/>
-                <constraint firstItem="lyS-Qk-089" firstAttribute="top" secondItem="4wa-EH-lQO" secondAttribute="top" id="R1v-Gt-Fyn"/>
-                <constraint firstItem="4wa-EH-lQO" firstAttribute="trailing" secondItem="lyS-Qk-089" secondAttribute="trailing" constant="90" id="YSD-VB-eoV"/>
-                <constraint firstItem="lyS-Qk-089" firstAttribute="leading" secondItem="4wa-EH-lQO" secondAttribute="leading" constant="90" id="enR-BN-hpr"/>
+                <constraint firstItem="lyS-Qk-089" firstAttribute="top" secondItem="4wa-EH-lQO" secondAttribute="top" constant="70" id="R1v-Gt-Fyn"/>
+                <constraint firstItem="lyS-Qk-089" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="gbL-IK-v1F"/>
                 <constraint firstItem="XR3-MH-1ot" firstAttribute="top" secondItem="z5D-XC-TkX" secondAttribute="bottom" constant="10" id="hGO-O5-HWo"/>
                 <constraint firstItem="z5D-XC-TkX" firstAttribute="centerX" secondItem="8Rf-4Q-1Nn" secondAttribute="centerX" id="rTD-4o-vAu"/>
             </constraints>

@@ -22,32 +22,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_connection" translatesAutoresizingMaskIntoConstraints="NO" id="IOS-6A-kAF">
-                    <rect key="frame" x="96.666666666666686" y="59" width="200" height="200"/>
+                    <rect key="frame" x="71.666666666666686" y="109" width="250" height="240"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="200" id="6yB-Ab-wNh"/>
-                        <constraint firstAttribute="height" constant="200" id="Efa-Ar-G26"/>
+                        <constraint firstAttribute="width" constant="250" id="6yB-Ab-wNh"/>
+                        <constraint firstAttribute="height" constant="240" id="Efa-Ar-G26"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Internet Connection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyX-eb-ATe">
-                    <rect key="frame" x="87.333333333333329" y="284" width="218.66666666666669" height="24"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <rect key="frame" x="72.000000000000014" y="374" width="249.33333333333337" height="27.666666666666686"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7d1-e8-eYz">
-                    <rect key="frame" x="107" y="318" width="179" height="40.666666666666686"/>
+                    <rect key="frame" x="94.000000000000014" y="411.66666666666669" width="205.33333333333337" height="48"/>
                     <string key="text" base64-UTF8="YES">
 UGxlYXNlIFR1cm4gT24gSW50ZXJuZXQD4oCoQ29ubmVjdGlvbg
 </string>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AT-lE-uDB">
-                    <rect key="frame" x="179" y="383.66666666666669" width="35" height="35"/>
+                    <rect key="frame" x="176.66666666666666" y="484.66666666666669" width="40" height="40.000000000000057"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="35" id="VwC-QT-iZf"/>
-                        <constraint firstAttribute="width" constant="35" id="fLn-7c-2Nc"/>
+                        <constraint firstAttribute="height" constant="40" id="VwC-QT-iZf"/>
+                        <constraint firstAttribute="width" constant="40" id="fLn-7c-2Nc"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" image="reload"/>
@@ -56,7 +56,7 @@ UGxlYXNlIFR1cm4gT24gSW50ZXJuZXQD4oCoQ29ubmVjdGlvbg
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="IOS-6A-kAF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3SS-LS-gWB"/>
+                <constraint firstItem="IOS-6A-kAF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="50" id="3SS-LS-gWB"/>
                 <constraint firstItem="RyX-eb-ATe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4NQ-0Z-HEL"/>
                 <constraint firstItem="7d1-e8-eYz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4ql-2G-FRD"/>
                 <constraint firstItem="7d1-e8-eYz" firstAttribute="top" secondItem="RyX-eb-ATe" secondAttribute="bottom" constant="10" id="FKA-eA-f2Z"/>
